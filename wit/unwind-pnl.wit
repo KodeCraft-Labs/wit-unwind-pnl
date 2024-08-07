@@ -1,0 +1,5 @@
+interface unwind-pnl-handler {
+    
+    use jabratech:unwind-pnl-common/types.{unwind-pnl-response};
+    unwind-pnl: func (user-email: string) -> unwind-pnl-response;
+}
