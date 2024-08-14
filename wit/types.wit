@@ -7,7 +7,7 @@ interface types {
      * - data: unwind-pnl data
      */
     record unwind-pnl-response {
-        code: i16,
+        code: s16,
         message: string,
         data: unwind-pnl
     }
