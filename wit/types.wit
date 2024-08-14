@@ -26,6 +26,7 @@ interface types {
         current-wallet-balances: pnl,
         jabra-deposits: pnl,
         collateral-owed-to-clients: pnl,
+        live-options-pnl: pnl,
         deribit-positions-pnl: pnl,
         client-pnl: pnl
     }
