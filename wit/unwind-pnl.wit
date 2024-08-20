@@ -1,5 +1,5 @@
 interface unwind-pnl-handler {
     use jabratech:common/types.{response-error};
     use types.{unwind-pnl-response};
-    get: func (user-email: string) -> result<unwind-pnl-response, response-error>;
+    get: func (user-email: string, counterparty: u8) -> result<unwind-pnl-response, response-error>;
 }
